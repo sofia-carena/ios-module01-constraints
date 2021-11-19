@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="constraints_exercise_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9o-49-7sp">
+                                <rect key="frame" x="368" y="0.0" width="368" height="414"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFd-MY-KQI">
+                                <rect key="frame" x="0.0" y="0.0" width="368" height="414"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="3Ix-rr-aQ7"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7He-GG-Hz3"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="QfZ-aI-sU1"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="RzP-kX-7vC"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="Wgx-7h-13M"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Y4J-sa-xFt"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="Yf3-iL-Tui"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Z3z-p7-8fh"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bWe-i0-QCW"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eos-yd-kDO"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="hso-Db-Gjj"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="lmh-El-b7G"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tGE-xW-H6y"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ucx-KA-Yxz"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="v3B-ob-ruw"/>
+                            <constraint firstItem="l9o-49-7sp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wx3-HZ-ZGE"/>
+                            <constraint firstItem="FFd-MY-KQI" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="xgc-Uq-XGX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3Ix-rr-aQ7"/>
+                                <exclude reference="Z3z-p7-8fh"/>
+                                <exclude reference="bWe-i0-QCW"/>
+                                <exclude reference="eos-yd-kDO"/>
+                                <exclude reference="hso-Db-Gjj"/>
+                                <exclude reference="lmh-El-b7G"/>
+                                <exclude reference="tGE-xW-H6y"/>
+                                <exclude reference="ucx-KA-Yxz"/>
+                                <exclude reference="xgc-Uq-XGX"/>
+                                <exclude reference="7He-GG-Hz3"/>
+                                <exclude reference="QfZ-aI-sU1"/>
+                                <exclude reference="RzP-kX-7vC"/>
+                                <exclude reference="Wgx-7h-13M"/>
+                                <exclude reference="Y4J-sa-xFt"/>
+                                <exclude reference="Yf3-iL-Tui"/>
+                                <exclude reference="v3B-ob-ruw"/>
+                                <exclude reference="wx3-HZ-ZGE"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="Z3z-p7-8fh"/>
+                                <include reference="bWe-i0-QCW"/>
+                                <include reference="hso-Db-Gjj"/>
+                                <include reference="tGE-xW-H6y"/>
+                                <include reference="ucx-KA-Yxz"/>
+                                <include reference="RzP-kX-7vC"/>
+                                <include reference="Y4J-sa-xFt"/>
+                                <include reference="Yf3-iL-Tui"/>
+                                <include reference="wx3-HZ-ZGE"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="3Ix-rr-aQ7"/>
+                                <include reference="eos-yd-kDO"/>
+                                <include reference="lmh-El-b7G"/>
+                                <include reference="xgc-Uq-XGX"/>
+                                <include reference="7He-GG-Hz3"/>
+                                <include reference="QfZ-aI-sU1"/>
+                                <include reference="Wgx-7h-13M"/>
+                                <include reference="v3B-ob-ruw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
