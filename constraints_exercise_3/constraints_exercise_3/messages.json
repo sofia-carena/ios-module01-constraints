@@ -1,0 +1,42 @@
+[
+    {
+        "username": "Support",
+        "message": "Hi, good morning team",
+        "timeMessage": "9:01"
+    },
+    {
+        "username": "Support",
+        "message": "Hi, I have a qq, can we donwload the last version of the app from appcenter?",
+        "timeMessage": "9:01"
+    },
+    {
+        "username": "Me",
+        "message": "Hi, good morning, yes, its already available to donwload 😎",
+        "timeMessage": "9:04"
+    },
+    {
+        "username": "Support",
+        "message": "Great, ty so much. I will move the ticket to 'Ready to Test'",
+        "timeMessage": "9:05"
+    },
+    {
+        "username": "QA",
+        "message": "Then, we will start to test the API details.",
+        "timeMessage": "10:06"
+    },
+    {
+        "username": "Support",
+        "message": "Oh, wait, other than that, were you able to check the digital payment story? 🤔",
+        "timeMessage": "10:32"
+    },
+    {
+        "username": "Support",
+        "message": "The story says: Once the pre-condition mentioned is satisfied, the app should show the main screen to the user with the details of the cart and the option to link the Apple pay to do the payment. The screen should have the following elements:",
+        "timeMessage": "10:32"
+    },
+    {
+        "username": "Me",
+        "message": "Yes, we already checked this with the team, it took 3 sprints :(",
+        "timeMessage": "10:40"
+    }
+]
